@@ -1,0 +1,41 @@
+/*index.html*/ 
+.imagen1{
+    display: flex;
+
+
+
+}
+h1{
+   color:brown;
+   font-family:Arial, Helvetica, sans-serif;
+   width: 90%;
+}
+ul{
+    display: flex;
+    flex-direction:row;
+
+    
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: brown;
+    font-size: 2;
+}
+
+/*tabla.html*/
+table td{
+    width: 8em;
+    
+}
+footer{
+    background-color: sienna;
+    padding: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+
+    
