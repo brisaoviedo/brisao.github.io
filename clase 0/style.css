@@ -1,112 +1,142 @@
 /*index.html*/
- 
-h1{
-   color:brown;
-   font-family:Arial, Helvetica, sans-serif;
-   width: 90%;
+
+h1 {
+  color: brown;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 90%;
 }
-ul{
-    display: flex;
-    flex-direction:row;
+ul {
+  display: flex;
+  flex-direction: row;
 }
-h2{
-    font-family: 'Times New Roman', Times, serif;
-    background-color: brown;
-    font-size: 2;
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  background-color: brown;
+  font-size: 2;
 }
-.parrafo-1{
-    margin: 2em;
-    color: black;
-    
+.parrafo-1 {
+  margin: 2em;
+  color: black;
 }
-.parrafo-2{
-    margin: 2em;
+.parrafo-2 {
+  margin: 2em;
 }
-.parrafo-3{
-    margin: 2em;
+.parrafo-3 {
+  margin: 2em;
 }
-.parrafo-4{
-    margin: 2em;
+.parrafo-4 {
+  margin: 2em;
 }
 .card
 
-/*tabla.html*/
-.tabla1{
-    font-family: Arial, Helvetica, sans-serif;
-}
-table td{
-    width: 8em;
 
+/*tabla.html*/
+.tabla1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+table td {
+  width: 8em;
 }
 /*footer*/
-footer{
-    background-color: grey;
-  
+footer {
+  background-color: #f8f9fa;
 }
-h4{
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-
+h4 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
 }
-.sociales{
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    display: inline-flex;
-    padding: 25px
+.sociales {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  transition: transform 0.3s;
+  display: inline-flex;
+  padding: 25px;
 }
-.sociales li{
-    display: inline-block;
-    text-align: center;
+.sociales li {
+  display: inline-block;
+  text-align: center;
 }
-.sociales a{
-
-    padding: 10px;
+.sociales a {
+  padding: 10px;
+}
+.sociales img {
+  transition: transform 0.3s;
+}
+.sociales img:hover {
+  transform: scale(1.1);
 }
 /*contacto.html*/
-.contenedor-prueba{
-    display:flex;
-    align-items: left;
-    width: 50%;
+.contenedor-prueba {
+  display: flex;
+  align-items: left;
+  width: 50%;
 }
 
-.items{
-    width: 100%;
-    height: 50%;
-    padding: 2% 5%;
+.items {
+  width: 100%;
+  height: 50%;
+  padding: 2% 5%;
 }
-.cont-1{
-    background-color: #198754;
+.cont-1 {
+  background-color: #198754;
 }
 
-/*boton whatsapp*/
 .whatsapp-btn {
-    display: flex;
-    align-items: center;
-    background-color: #25D366;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  background-color: #25d366;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
 }
 
 .whatsapp-btn:hover {
-    background-color: #20c057;
+  background-color: #20c057;
 }
 
 .whatsapp-logo {
-    width: 24px;
-    height: 24px;
-    margin-right: 10px;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
 }
 
+/*horarios*/
 
+.horarios-section {
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
 
+.horarios-section h1 {
+  margin-bottom: 30px;
+  color: #343a40;
+}
 
+.table {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #dee2e6;
+}
 
+.table thead th {
+  background-color: #343a40;
+  color: #ffffff;
+}
 
+.table tbody td {
+  background-color: #ffffff;
+  color: #343a40;
+}
 
-    
+.table tbody tr:hover {
+  background-color: #f1f1f1;
+}
